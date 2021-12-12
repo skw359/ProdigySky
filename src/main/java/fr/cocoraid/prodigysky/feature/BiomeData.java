@@ -4,7 +4,6 @@ import fr.prodigysky.api.EffectDuration;
 import org.bukkit.World;
 
 public class BiomeData {
-
     private String name;
     private EffectDuration duration;
     private World world;
@@ -18,16 +17,15 @@ public class BiomeData {
         this.world = world;
     }
 
-
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public EffectDuration getDuration() {
-        return duration;
+        return this.duration;
     }
 
     public World getWorld() {
-        return world;
+        return this.world;
     }
 }
